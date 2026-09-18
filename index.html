@@ -360,13 +360,13 @@ const MEDIA = {
   portrait:  "",           // .jpg / .webp
   email:     "hello@paulopiresmusic.com",
   links: {                 // empty = hidden
-    imdb: "", instagram: "", youtube: "", spotify: "", appleMusic: ""
+    imdb: "https://www.imdb.com/name/nm17791662/", instagram: "", youtube: "", spotify: "", appleMusic: ""
   },
   works: {                 // video per project (YouTube / Vimeo / .mp4)
     avo:     "",
     maximo:  "",
-    theatre: "",
-    short:   ""
+    rabo:    "",
+        credit:{en:"Feature film · dir. Ismail Sahin · 2026", pt:"Longa-metragem · real. Ismail Sahin · 2026"}, cues:["t4"] }, { id:"escola", year:"2026", title:{en:"Escola <em>Sem Muros</em>", pt:"Escola <em>Sem Muros</em>"}, meta:{ en:[["type","Feature film · Brazil / Portugal"],["dir","Cao Hamburger"],["role","Orchestrator, music prep & piano"],["status","In post-production"]], pt:[["type","Longa-metragem · Brasil / Portugal"],["dir","Cao Hamburger"],["role","Orquestrador, music prep e piano"],["status","project:"Portuguese Love""]] }, credit:{en:"Feature film · dir. Cao Hamburger · 2026", pt:"Longa-metragem · real. Cao Hamburger · 2026"}, cues:[] }
   },
   tracks: {                // audio per cue (.mp3 / .m4a / .wav URL)
     t1: "", t2: "", t3: "", t4: "", t5: ""
@@ -418,16 +418,16 @@ const WORKS = [
            pt:[["type","Longa-metragem"],["dir","Raul Veiga"],["role","Banda sonora original"],["premiere","OUFF — Festival de Cinema de Ourense"]] },
     credit:{en:"Feature film · dir. Raul Veiga · 2026", pt:"Longa-metragem · real. Raul Veiga · 2026"}, cues:["t1"] },
   { id:"maximo", year:"2026 – 27", title:{en:"Máximo <em>Risco</em>", pt:"Máximo <em>Risco</em>"},
-    meta:{ en:[["type","Series · 6 × 45' · action comedy"],["dir","Luís Ismael"],["prod","LightBox · SIC"],["role","Original score, main title & end credits"],["status","In production"]],
-           pt:[["type","Série · 6 × 45' · ação e comédia"],["dir","Luís Ismael"],["prod","LightBox · SIC"],["role","Banda sonora, genérico e créditos finais"],["status","Em produção"]] },
+    meta:{ en:[["type","Series · 6 × 45' · action comedy"],["dir","Luís Ismael"],["prod","LightBox · SIC"],["role","Original score, main title & end credits"],["status","In post-production"]],
+           pt:[["type","Série · 6 × 45' · ação e comédia"],["dir","Luís Ismael"],["prod","LightBox · SIC"],["role","Banda sonora, genérico e créditos finais"],["status","project:"Portuguese Love""]] },
     credit:{en:"Series · LightBox / SIC · dir. Luís Ismael", pt:"Série · LightBox / SIC · real. Luís Ismael"}, cues:["t2"] },
-  { id:"theatre", year:"[ year ]", placeholder:true, title:{en:"[ Theatre <em>title</em> ]", pt:"[ Título de <em>teatro</em> ]"},
-    meta:{ en:[["type","Musical theatre"],["dir","[ director ]"],["prod","[ company ]"],["role","Score & arrangements"]],
-           pt:[["type","Teatro musical"],["dir","[ encenação ]"],["prod","[ companhia ]"],["role","Música e arranjos"]] },
-    credit:{en:"Theatre · [ company ]", pt:"Teatro · [ companhia ]"}, cues:["t4"] },
-  { id:"short", year:"[ year ]", placeholder:true, title:{en:"[ Short film <em>title</em> ]", pt:"[ Curta-metragem <em>título</em> ]"},
-    meta:{ en:[["type","Short film"],["dir","[ director ]"],["role","Original score"]],
-           pt:[["type","Curta-metragem"],["dir","[ realização ]"],["role","Banda sonora original"]] },
+  { id:"rabo", year:"2025 – 26", title:{en:"Rabo <em>de Peixe</em>", pt:"Rabo <em>de Peixe</em>"},
+    meta:{ en:[["type","Series · Netflix · seasons 2 & 3"],["role","Orchestrator · 5 episodes"]],
+           pt:[["type","Série · Netflix · 2.ª e 3.ª temporadas"],["role","Orquestrador · 5 episódios"]] },
+    credit:{en:"Series · Netflix · orchestrator", pt:"Série · Netflix · orquestrador"}, cues:["t5"] },
+  { id:"plove", year:"2026", title:{en:"Portuguese <em>Love</em>", pt:"Portuguese <em>Love</em>"},
+    meta:{ en:[["type","Feature film · Turkey / Portugal"],["dir","Ismail Sahin"],["role","Additional music"]],
+           pt:[["type","Longa-metragem · Turquia / Portugal"],["dir","Ismail Sahin"],["role","Música adicional"]] },
     credit:{en:"Short film · [ director ]", pt:"Curta-metragem · [ realização ]"}, cues:["t5"] }
 ];
 
